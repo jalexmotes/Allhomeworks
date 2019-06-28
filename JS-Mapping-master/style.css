@@ -1,0 +1,40 @@
+/* remove default margin and padding from body */
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/* set map, body, and html to 100% of the screen size */
+#map,
+body,
+html {
+  height: 100%;
+}
+
+.legend {
+  display: flex;
+  flex-direction: row;
+  color: #555;
+  padding: 6px 3px 6px 8px;
+  font: 10px Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  background: rgba(255,255,255,0.8);
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  border-radius: 5px;
+}
+
+.legend ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.legend li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 25px;
+  height: 20px;
+}
+
